@@ -62,7 +62,7 @@ const Hub = () => {
           fontWeight="400"
           color="#04c5f5"
         >
-          Don't get mad get noticed{" "}
+          Bee social{" "}
         </Text>
       </Box>
       <VStack maxW="800px" alignItems="left" w="600px">
