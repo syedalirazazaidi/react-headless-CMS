@@ -17,8 +17,8 @@ function App() {
       <Header />
       <Main />
       <Banner />
-      <Hub/>
-      <Work />
+      <Hub />
+      {/* <Work /> */}
       <Content />
       <Platform />
       <Footer />
