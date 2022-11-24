@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createClient } from "contentful";
 import { Box, Heading, VStack, Image, Divider } from "@chakra-ui/react";
+
 const { REACT_APP_SPACE_ID, REACT_APP_ACCESSTOKEN } = process.env;
 
 function Content() {
@@ -9,6 +10,7 @@ function Content() {
     space: REACT_APP_SPACE_ID,
     accessToken: REACT_APP_ACCESSTOKEN,
   });
+
   useEffect(() => {
     const getAllEnteries = async () => {
       try {

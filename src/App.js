@@ -7,6 +7,7 @@ import Header from './pages/header'
 import Work from './pages/how-work'
 import Main from './pages/main'
 import Platform from './pages/platform'
+import Hub from './pages/social-hub'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Main />
       <Banner />
+      <Hub/>
       <Work />
       <Content />
       <Platform />
